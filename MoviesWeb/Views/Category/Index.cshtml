@@ -4,17 +4,18 @@
 }
 
 <h1>Categories</h1>
-<table style="width:100%" class="tabel tabel-striped tabel-bordered">
+
+<table class="table table-hover">
     <thead>
         <tr>
-            <th>Category Name</th>
-            <th>Display Order</th>
+            <th scope="col">Category Name</th>
+            <th scope="col">Display Order</th>
         </tr>
     </thead>
     <tbody>
         @foreach(var obj in Model)
         {
-            <tr>
+            <tr class="table-active">
                 <td style="width:50%">@obj.Name</td>
                 <td style="width:30%">@obj.DisplayOrder</td>
             </tr>    
