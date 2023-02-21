@@ -41,5 +41,52 @@ namespace MoviesWeb.Controllers
                 return View(obj);
             }
         }
+
+
+        public IActionResult Edit(int? id)
+        {
+            if (id == null || id ==0)
+            {
+                return NotFound();
+            }
+
+            var CategoryFromDB = _dbContext.Categories.Find(id);
+            
+     //       var CategoryFromDB = _dbContext.Categories.SingleOrDefault(u=> u.Id==id);
+     //       var CategoryFromDB = _dbContext.Categories.FirstOrDefault(u=> u.Id==id);
+
+
+            if (CategoryFromDB == null) {
+                return NotFound();
+            }
+
+            return View(CategoryFromDB);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Category obj)
+        {
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("name", "Display order can't exactly match the Name");
+            }
+            if (ModelState.IsValid)
+            {
+                _dbContext.Categories.Update(obj);
+                _dbContext.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(obj);
+            }
+        }
+
+
+
+
+
+
     }
 }

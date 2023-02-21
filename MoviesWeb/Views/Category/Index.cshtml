@@ -18,6 +18,7 @@
         <tr>
             <th scope="col">Category Name</th>
             <th scope="col">Display Order</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -26,6 +27,11 @@
             <tr class="table-active">
                 <td style="width:50%">@obj.Name</td>
                 <td style="width:30%">@obj.DisplayOrder</td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Category" asp-action="Edit" class="btn btn-outline-info mx-2" asp-route-id="@obj.Id"><i class="bi bi-pencil-square"></i> Edit</a>
+                    </div>
+                </td>
             </tr>    
         }
     </tbody>
