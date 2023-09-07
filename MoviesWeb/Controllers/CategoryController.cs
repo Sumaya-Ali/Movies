@@ -51,9 +51,9 @@ namespace MoviesWeb.Controllers
             }
 
             var CategoryFromDB = _dbContext.Categories.Find(id);
-            
-     //       var CategoryFromDB = _dbContext.Categories.SingleOrDefault(u=> u.Id==id);
-     //       var CategoryFromDB = _dbContext.Categories.FirstOrDefault(u=> u.Id==id);
+
+            //       var CategoryFromDB = _dbContext.Categories.SingleOrDefault(u=> u.Id==id);
+            //       var CategoryFromDB = _dbContext.Categories.FirstOrDefault(u=> u.Id==id);
 
 
             if (CategoryFromDB == null) {
@@ -83,7 +83,35 @@ namespace MoviesWeb.Controllers
             }
         }
 
+        public IActionResult Delete(int? id) {
+            if (id == 0 || id == null) {
+                return NotFound();
+            }
+            var cat = _dbContext.Categories.Find(id);
+            if(cat == null)
+            {
+                return NotFound();
+            }
+            return View(cat);
+        }
 
+        [HttpPost,ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePost(int? id)
+        {
+            if(id==0 || id== null)
+            {
+                return NotFound();
+            }
+            var cat = _dbContext.Categories.Find(id);
+            if(cat == null)
+            {
+                return NotFound();
+            }
+            _dbContext.Categories.Remove(cat);
+            _dbContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
 
 
 
