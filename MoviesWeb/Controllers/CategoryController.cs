@@ -34,6 +34,7 @@ namespace MoviesWeb.Controllers
             {
                 _dbContext.Categories.Add(obj);
                 _dbContext.SaveChanges();
+                TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index");
             }
             else
@@ -75,6 +76,7 @@ namespace MoviesWeb.Controllers
             {
                 _dbContext.Categories.Update(obj);
                 _dbContext.SaveChanges();
+                TempData["success"] = "Category updated successfully";
                 return RedirectToAction("Index");
             }
             else
@@ -99,18 +101,27 @@ namespace MoviesWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
-            if(id==0 || id== null)
+            try
             {
-                return NotFound();
+              //  throw new Exception();
+                if(id==0 || id== null)
+                {
+                    return NotFound();
+                }
+                var cat = _dbContext.Categories.Find(id);
+                if(cat == null)
+                {
+                    return NotFound();
+                }
+                _dbContext.Categories.Remove(cat);
+                _dbContext.SaveChanges();
+                TempData["success"] = "Category deleted successfully";
+                return RedirectToAction("Index");
             }
-            var cat = _dbContext.Categories.Find(id);
-            if(cat == null)
-            {
-                return NotFound();
+            catch {
+                TempData["error"] = "Error Try again later!";
+                return RedirectToAction("Index");
             }
-            _dbContext.Categories.Remove(cat);
-            _dbContext.SaveChanges();
-            return RedirectToAction("Index");
         }
 
 
