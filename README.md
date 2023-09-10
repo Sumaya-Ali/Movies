@@ -1,4 +1,4 @@
-# Movies
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/b3f46269-6f91-4596-8ce6-6f3047c993fa)# Movies
 DotNetCore6 &amp; SQLServer Project for Movies
 
 1## First of all download the following packages:
@@ -21,6 +21,8 @@ for Entity framework with SQL server dependencies and migration service
 To create new migration:
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/882d1c9e-0e6e-42d5-96d6-a79fb4d8ae94)
 
+4## CRUD operatins:
+
 you can either create controllers & views manually or automatically:
 
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/eaf6a56e-1b0a-4c9a-84ee-1def6c51a69e)
@@ -39,11 +41,22 @@ views created manually:
 
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/1e6980c2-cbb5-4339-a2a0-301ce9d51293)
 
-Free themes for Bootstrap:
+5## Free themes for Bootstrap:
 
 https://bootswatch.com/
 
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/055966b9-b048-43b0-90ac-b258b58f4337)
+
+6## Add Bootstrap Icons:
+https://icons.getbootstrap.com/
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/7959bd7e-dd6e-45ef-903d-7407ae64379e)
+
+7## using ModelState for clientside & serverside validations
+
+
+
+
 
 
 
