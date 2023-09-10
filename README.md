@@ -25,6 +25,27 @@ you can either create controllers & views manually or automatically:
 
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/eaf6a56e-1b0a-4c9a-84ee-1def6c51a69e)
 
+views created automatically:
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/99d6584a-4a45-406e-9b5c-8aa8883a8a01)
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/6f1fdffe-c7ed-4a0c-83f6-60bfff1eb2e2)
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/687e0792-6774-4cd3-bcca-4faf64a005a3)
+
+views created manually:
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/5de98533-5bfb-4047-ac4f-d7565c1991b6)
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/1e6980c2-cbb5-4339-a2a0-301ce9d51293)
+
+
+
+
+
+
+
+
 
 
 
