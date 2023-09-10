@@ -1,5 +1,7 @@
 # Movies
-DotNetCore6 &amp; SQLServer Project for Movies
+DotNetCore6 &amp; SQLServer Project for Movies (CRUD, design, validations- TempData, toastr, icons, deploy to azure)
+original tutorial:
+https://www.youtube.com/watch?v=hZ1DASYd9rk&t=10460s
 
 1## First of all download the following packages:
 
