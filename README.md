@@ -39,6 +39,11 @@ views created manually:
 
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/1e6980c2-cbb5-4339-a2a0-301ce9d51293)
 
+Free themes for Bootstrap:
+
+https://bootswatch.com/
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/055966b9-b048-43b0-90ac-b258b58f4337)
 
 
 
