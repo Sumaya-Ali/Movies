@@ -21,6 +21,13 @@ for Entity framework with SQL server dependencies and migration service
 To create new migration:
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/882d1c9e-0e6e-42d5-96d6-a79fb4d8ae94)
 
+you can either create controllers & views manually or automatically:
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/eaf6a56e-1b0a-4c9a-84ee-1def6c51a69e)
+
+
+
+
 
 
 
