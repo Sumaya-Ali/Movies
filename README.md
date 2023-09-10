@@ -1,0 +1,54 @@
+# Movies
+DotNetCore6 &amp; SQLServer Project for Movies
+
+1## First of all download the following packages:
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/b860783e-084d-4e0f-a016-100d32bb20f2)
+for hot reload (reload the changes in client-side without refreshing the page or rebuilding the project
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/5d19cbe0-b076-4cb8-886d-b8ea4c6c1cbf)
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/d49b9c0b-801a-4fd7-9954-cef1edd938e3)
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/d7b87799-75fa-40ca-a416-c8f66ef21cca)
+
+for Entity framework with SQL server dependencies and migration service  
+
+2## create models files & dbcontext file & setup connection string in appsetting.json & bind everything together in program.cs (dependeny injektion)
+
+3## do migration in order to create tables in DB:
+
+To create new migration:
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/882d1c9e-0e6e-42d5-96d6-a79fb4d8ae94)
+
+you can either create controllers & views manually or automatically:
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/eaf6a56e-1b0a-4c9a-84ee-1def6c51a69e)
+
+views created automatically:
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/99d6584a-4a45-406e-9b5c-8aa8883a8a01)
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/6f1fdffe-c7ed-4a0c-83f6-60bfff1eb2e2)
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/687e0792-6774-4cd3-bcca-4faf64a005a3)
+
+views created manually:
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/5de98533-5bfb-4047-ac4f-d7565c1991b6)
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/1e6980c2-cbb5-4339-a2a0-301ce9d51293)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
