@@ -65,6 +65,9 @@ https://github.com/CodeSeven/toastr
 
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/56026e7b-5793-4a53-90c0-97a56d45a9a8)
 
+![3](https://github.com/Sumaya-Ali/Movies/assets/52631071/a389fb14-e481-44dc-8711-5836605581ab)
+
+
 
 
 
