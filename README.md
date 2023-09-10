@@ -1,4 +1,4 @@
-![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/b3f46269-6f91-4596-8ce6-6f3047c993fa)# Movies
+# Movies
 DotNetCore6 &amp; SQLServer Project for Movies
 
 1## First of all download the following packages:
