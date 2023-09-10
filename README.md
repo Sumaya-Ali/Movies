@@ -21,7 +21,7 @@ for Entity framework with SQL server dependencies and migration service
 To create new migration:
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/882d1c9e-0e6e-42d5-96d6-a79fb4d8ae94)
 
-4## CRUD operatins:
+4## CRUD operations:
 
 you can either create controllers & views manually or automatically:
 
@@ -52,7 +52,17 @@ https://icons.getbootstrap.com/
 
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/7959bd7e-dd6e-45ef-903d-7407ae64379e)
 
-7## using ModelState for clientside & serverside validations
+7## using ModelState for clientside & serverside & customized validations
+
+8## using TempData for storaging success & error messages ( Notifications)
+
+9## using toastr js for Notifications design:
+https://github.com/CodeSeven/toastr
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/7fd08ab0-b781-4178-87df-a89629fd3094)
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/56026e7b-5793-4a53-90c0-97a56d45a9a8)
+
 
 
 
