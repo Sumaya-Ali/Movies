@@ -18,10 +18,15 @@ for Entity framework with SQL server dependencies and migration service
 
 2## create models files & dbcontext file & setup connection string in appsetting.json & bind everything together in program.cs (dependeny injektion)
 
-3## do migration in order to create tables in DB:
+3## Do the migration in order to create tables in DB:
 
 To create new migration:
 ![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/882d1c9e-0e6e-42d5-96d6-a79fb4d8ae94)
+
+to execute migration to the DB:
+
+![image](https://github.com/Sumaya-Ali/Movies/assets/52631071/1216867c-bf7d-4bc7-9960-b7dafca919d2)
+
 
 4## CRUD operations:
 
